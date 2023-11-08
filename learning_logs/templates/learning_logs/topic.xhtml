@@ -7,7 +7,7 @@
 {% block content %}
 
   <p>
-    <a href="{% url 'learning_logs:new_entry' topic.id %}">Add new entry</a>
+    <a href="{% url 'learning_logs:new_entry' topic.id %}">Add new summary</a>
   </p>
 
   {% for entry in enteries %}
@@ -16,13 +16,13 @@
       <h4 class="card-header">
         {{ entry.added_date|date:'M d, Y H:i' }}
         <small><a href="{% url 'learning_logs:edit_entry' entry.id %}">
-          edit entry</a></small>
+          edit summary</a></small>
       </h4>
       <!-- Card body with entry text -->
       <div class="card-body">{{ entry|linebreaks }}</div>
     </div>
   {% empty %}
-    <p>There are no entries for this topic yet.</p>
+    <p>There are no summaries for this topic yet.</p>
   {% endfor %}
 
 {% endblock content %}
