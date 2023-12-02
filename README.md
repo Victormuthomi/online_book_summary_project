@@ -35,4 +35,4 @@ Online Book Summary is a web application that allows users to register an accoun
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-MIT
+victor muthomi
