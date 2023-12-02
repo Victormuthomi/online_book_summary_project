@@ -11,11 +11,11 @@ Online Book Summary is a web application that allows users to register an accoun
 ## Installation
 1. Clone the repository:
     ```
-    git clone https://github.com/Victormuthomi/online-book-summary.git
+    git clone https://github.com/Victormuthomi/online_book_summary_project.git
     ```
 2. Navigate to the project directory:
     ```
-    cd online-book-summary
+    cd online_book_summary_project
     ```
 3. Install the required dependencies:
     ```
